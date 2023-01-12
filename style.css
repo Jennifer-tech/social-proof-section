@@ -1,0 +1,223 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+.main-container{
+    background: url("./Images/image.png");
+    max-width: 1440px;
+    margin: 50px 90px;
+    background-size: cover;
+}
+.image_background{
+    background-size: cover;
+    height: fit-content;
+
+}
+.top-container{
+    display: flex;
+    flex-direction: row;
+}
+.top-left{
+    width: 40%;
+}
+.top-left > h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.paragraph{
+    width: 90%;
+    margin-bottom: 35px;  
+}
+p{
+    color: hsl(303, 10%, 53%);
+    font-size: 15px;
+}
+.top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.top-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.first-block{
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 53%;
+}
+.star-block{
+    margin-right: 30px;
+}
+.first-block-text{
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.second-block{
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 53%;
+    
+}
+.second-block-text{
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.third-block{
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 53%;
+}
+.third-block-text{
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.bottom-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1030px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.first-box{
+    background-color: hsl(300, 43%, 22%);
+    width: 310px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+.second-box{
+    background-color: hsl(300, 43%, 22%);
+    width: 310px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+.third-box{
+    background-color: hsl(300, 43%, 22%);
+    width: 310px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.heading-container{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 20px 20px 20px;
+}
+.heading-name{
+    margin-left: 20px;
+}
+.img-avatar{
+    border-radius: 50px;
+    width: 40px;
+}
+.name{
+    color: hsl(0, 0%, 100%);
+}
+.about{
+    color: hsl(333, 80%, 67%);
+}
+.paragraph-container{
+    margin: 20px;
+    
+}
+.paragraph-container > p{
+    color: hsl(0, 0%, 100%);
+}
+@media screen and (max-width: 767px){
+    .main-container{
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 150px auto;
+    }
+    .top-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .top-left{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .top-left > h1{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .top-left .paragraph{
+        width: 95%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .top-right{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .first-block{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .second-block{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        padding: 10px 0;
+    }
+    .third-block{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        padding: 10px 0;
+    }
+    .bottom-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .first-box{
+        width: 100%;
+        height: auto;
+    }
+    .second-box{
+        width: 100%;
+        margin-top: 15px;
+        height: auto;
+    }
+    .third-box{
+        width: 100%;
+        margin-top: 15px;
+        height: auto;
+    }
+    
+}
